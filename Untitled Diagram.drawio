@@ -221,8 +221,8 @@
         <mxCell id="R8NtyeofitAbBPxgJNse-5" value="changeRadiation()&lt;div&gt;&lt;div&gt;&lt;br&gt;&lt;/div&gt;&lt;/div&gt;&lt;div&gt;if needForRadiation &amp;gt;= 3 then radiation := Alpha&lt;/div&gt;&lt;div&gt;elif needForRadiation &amp;lt;= -3 then radiation := Delta&lt;/div&gt;&lt;div&gt;else radiation := NoRadiation&amp;nbsp;&lt;/div&gt;&lt;div&gt;endif&lt;/div&gt;" style="shape=note;whiteSpace=wrap;html=1;backgroundOutline=1;darkOpacity=0.05;align=left;" vertex="1" parent="WIyWlLk6GJQsqaUBKTNV-1">
           <mxGeometry x="1380" y="-570" width="320" height="110" as="geometry" />
         </mxCell>
-        <mxCell id="R8NtyeofitAbBPxgJNse-6" value="killPlants()&lt;div&gt;&lt;br&gt;&lt;/div&gt;&lt;div&gt;for e in this.plants&lt;/div&gt;" style="shape=note;whiteSpace=wrap;html=1;backgroundOutline=1;darkOpacity=0.05;align=left;" vertex="1" parent="WIyWlLk6GJQsqaUBKTNV-1">
-          <mxGeometry x="1380" y="-420" width="320" height="100" as="geometry" />
+        <mxCell id="R8NtyeofitAbBPxgJNse-6" value="killPlants()&lt;div&gt;&lt;br&gt;&lt;/div&gt;&lt;div&gt;for e in this.plants:&lt;/div&gt;&lt;div&gt;&lt;span style=&quot;white-space: pre;&quot;&gt;&#x9;&lt;/span&gt;if(e.death()) then this.plants.pop(e)&lt;br&gt;&lt;/div&gt;&lt;div&gt;&lt;span style=&quot;white-space: pre;&quot;&gt;&#x9;&lt;/span&gt;endif&lt;br&gt;&lt;/div&gt;&lt;div&gt;endloop&lt;/div&gt;" style="shape=note;whiteSpace=wrap;html=1;backgroundOutline=1;darkOpacity=0.05;align=left;" vertex="1" parent="WIyWlLk6GJQsqaUBKTNV-1">
+          <mxGeometry x="1380" y="-420" width="320" height="110" as="geometry" />
         </mxCell>
       </root>
     </mxGraphModel>
