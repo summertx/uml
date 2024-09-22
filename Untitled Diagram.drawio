@@ -157,8 +157,8 @@
         <mxCell id="U2ah6jXeYR3lidveWnMp-1" value="dayPass()&lt;div&gt;&lt;br&gt;&lt;/div&gt;&lt;div&gt;this.killPlants()&lt;/div&gt;&lt;div&gt;this.printInformation()&lt;/div&gt;&lt;div&gt;this.changeRadiation()&lt;/div&gt;" style="shape=note;whiteSpace=wrap;html=1;backgroundOutline=1;darkOpacity=0.05;align=left;" vertex="1" parent="WIyWlLk6GJQsqaUBKTNV-1">
           <mxGeometry x="1380" y="-120" width="320" height="110" as="geometry" />
         </mxCell>
-        <mxCell id="U2ah6jXeYR3lidveWnMp-8" value="Plant(name: string, )&lt;div&gt;&lt;br&gt;&lt;/div&gt;&lt;div&gt;&lt;br&gt;&lt;/div&gt;" style="shape=note;whiteSpace=wrap;html=1;backgroundOutline=1;darkOpacity=0.05;align=left;" vertex="1" parent="WIyWlLk6GJQsqaUBKTNV-1">
-          <mxGeometry x="70" y="-830" width="320" height="100" as="geometry" />
+        <mxCell id="U2ah6jXeYR3lidveWnMp-8" value="Plant(name: string, type: string, ntr: int)&lt;div&gt;&lt;br&gt;&lt;/div&gt;&lt;div&gt;&lt;br&gt;&lt;div&gt;&lt;br&gt;&lt;/div&gt;&lt;div&gt;&lt;br&gt;&lt;/div&gt;&lt;/div&gt;" style="shape=note;whiteSpace=wrap;html=1;backgroundOutline=1;darkOpacity=0.05;align=left;" vertex="1" parent="WIyWlLk6GJQsqaUBKTNV-1">
+          <mxGeometry x="70" y="-870" width="320" height="100" as="geometry" />
         </mxCell>
         <mxCell id="U2ah6jXeYR3lidveWnMp-26" value="&lt;abstract&gt;&#xa;Plant" style="swimlane;fontStyle=0;align=center;verticalAlign=top;childLayout=stackLayout;horizontal=1;startSize=40;horizontalStack=0;resizeParent=1;resizeLast=0;collapsible=1;marginBottom=0;rounded=0;shadow=0;strokeWidth=1;" vertex="1" parent="WIyWlLk6GJQsqaUBKTNV-1">
           <mxGeometry x="-20" y="360" width="200" height="240" as="geometry">
@@ -217,6 +217,65 @@
           <mxGeometry y="30" width="200" height="24" as="geometry" />
         </mxCell>
         <mxCell id="U2ah6jXeYR3lidveWnMp-40" value="&lt;div&gt;&lt;div&gt;+Plant(name: string, type: string,&lt;/div&gt;&lt;div&gt;&lt;span style=&quot;background-color: initial;&quot;&gt;&amp;nbsp; ntr: int) { override }&lt;/span&gt;&lt;/div&gt;&lt;/div&gt;+infected(Radiation r): void&lt;div&gt;&amp;nbsp; { override }&lt;/div&gt;&lt;div&gt;+radeNeed(): int { override }&lt;/div&gt;" style="text;html=1;align=left;verticalAlign=middle;resizable=0;points=[];autosize=1;strokeColor=none;fillColor=none;" vertex="1" parent="U2ah6jXeYR3lidveWnMp-38">
+          <mxGeometry y="54" width="200" height="90" as="geometry" />
+        </mxCell>
+        <mxCell id="U2ah6jXeYR3lidveWnMp-46" value="&lt;abstract&gt;&#xa;Plant" style="swimlane;fontStyle=0;align=center;verticalAlign=top;childLayout=stackLayout;horizontal=1;startSize=40;horizontalStack=0;resizeParent=1;resizeLast=0;collapsible=1;marginBottom=0;rounded=0;shadow=0;strokeWidth=1;" vertex="1" parent="WIyWlLk6GJQsqaUBKTNV-1">
+          <mxGeometry x="-360" y="-894" width="200" height="240" as="geometry">
+            <mxRectangle x="340" y="380" width="170" height="26" as="alternateBounds" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="U2ah6jXeYR3lidveWnMp-47" value="" style="endArrow=none;html=1;rounded=0;entryX=1;entryY=0.992;entryDx=0;entryDy=0;entryPerimeter=0;" edge="1" parent="U2ah6jXeYR3lidveWnMp-46" target="U2ah6jXeYR3lidveWnMp-48">
+          <mxGeometry width="50" height="50" relative="1" as="geometry">
+            <mxPoint y="90" as="sourcePoint" />
+            <mxPoint x="50" y="40" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="U2ah6jXeYR3lidveWnMp-48" value="#name: string&#xa;#nutrient: int&#xa;#living: boolean" style="text;align=left;verticalAlign=top;spacingLeft=4;spacingRight=4;overflow=hidden;rotatable=0;points=[[0,0.5],[1,0.5]];portConstraint=eastwest;" vertex="1" parent="U2ah6jXeYR3lidveWnMp-46">
+          <mxGeometry y="40" width="200" height="50" as="geometry" />
+        </mxCell>
+        <mxCell id="U2ah6jXeYR3lidveWnMp-49" value="&lt;div&gt;+Plant(name: string, type: string,&amp;nbsp;&lt;/div&gt;&lt;div&gt;&lt;span style=&quot;background-color: initial;&quot;&gt;&amp;nbsp; ntr: int) { virtual }&lt;/span&gt;&lt;/div&gt;+getName(): string&lt;div&gt;+getNutrient(): int&lt;/div&gt;&lt;div&gt;+getLiving():&amp;nbsp; boolean&lt;/div&gt;&lt;div&gt;+infected(Radiation r): void&lt;/div&gt;&lt;div&gt;&amp;nbsp; { virtual }&lt;/div&gt;&lt;div&gt;+radeNeed(): int { virtual }&lt;/div&gt;&lt;div&gt;+death(): boolean&lt;/div&gt;" style="text;html=1;align=left;verticalAlign=middle;resizable=0;points=[];autosize=1;strokeColor=none;fillColor=none;" vertex="1" parent="U2ah6jXeYR3lidveWnMp-46">
+          <mxGeometry y="90" width="200" height="140" as="geometry" />
+        </mxCell>
+        <mxCell id="U2ah6jXeYR3lidveWnMp-50" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;exitX=0.5;exitY=0;exitDx=0;exitDy=0;entryX=0.5;entryY=1;entryDx=0;entryDy=0;endSize=12;endArrow=block;endFill=0;" edge="1" parent="WIyWlLk6GJQsqaUBKTNV-1" source="U2ah6jXeYR3lidveWnMp-51" target="U2ah6jXeYR3lidveWnMp-46">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="U2ah6jXeYR3lidveWnMp-51" value="DeltaTree" style="swimlane;fontStyle=0;align=center;verticalAlign=top;childLayout=stackLayout;horizontal=1;startSize=30;horizontalStack=0;resizeParent=1;resizeLast=0;collapsible=1;marginBottom=0;rounded=0;shadow=0;strokeWidth=1;" vertex="1" parent="WIyWlLk6GJQsqaUBKTNV-1">
+          <mxGeometry x="-380" y="-564" width="192" height="144" as="geometry">
+            <mxRectangle x="340" y="380" width="170" height="26" as="alternateBounds" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="U2ah6jXeYR3lidveWnMp-52" value="" style="line;html=1;strokeWidth=1;align=left;verticalAlign=middle;spacingTop=-1;spacingLeft=3;spacingRight=3;rotatable=0;labelPosition=right;points=[];portConstraint=eastwest;" vertex="1" parent="U2ah6jXeYR3lidveWnMp-51">
+          <mxGeometry y="30" width="192" height="24" as="geometry" />
+        </mxCell>
+        <mxCell id="U2ah6jXeYR3lidveWnMp-53" value="&lt;div style=&quot;text-align: left;&quot;&gt;&lt;div&gt;+Plant(name: string, type: string,&amp;nbsp;&lt;/div&gt;&lt;div&gt;&lt;span style=&quot;background-color: initial;&quot;&gt;&amp;nbsp; ntr: int) { override }&lt;/span&gt;&lt;/div&gt;&lt;div&gt;&lt;span style=&quot;background-color: initial;&quot;&gt;+infected(Radiation r): void&lt;/span&gt;&lt;/div&gt;&lt;/div&gt;&lt;div style=&quot;text-align: left;&quot;&gt;&amp;nbsp; { override }&lt;/div&gt;&lt;div style=&quot;text-align: left;&quot;&gt;+radeNeed(): int { override }&lt;/div&gt;" style="text;html=1;align=center;verticalAlign=middle;resizable=0;points=[];autosize=1;strokeColor=none;fillColor=none;" vertex="1" parent="U2ah6jXeYR3lidveWnMp-51">
+          <mxGeometry y="54" width="192" height="90" as="geometry" />
+        </mxCell>
+        <mxCell id="U2ah6jXeYR3lidveWnMp-54" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;exitX=0.5;exitY=0;exitDx=0;exitDy=0;entryX=0.75;entryY=1;entryDx=0;entryDy=0;endSize=12;endArrow=block;endFill=0;" edge="1" parent="WIyWlLk6GJQsqaUBKTNV-1" source="U2ah6jXeYR3lidveWnMp-55" target="U2ah6jXeYR3lidveWnMp-46">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="U2ah6jXeYR3lidveWnMp-55" value="ParaBush" style="swimlane;fontStyle=0;align=center;verticalAlign=top;childLayout=stackLayout;horizontal=1;startSize=30;horizontalStack=0;resizeParent=1;resizeLast=0;collapsible=1;marginBottom=0;rounded=0;shadow=0;strokeWidth=1;" vertex="1" parent="WIyWlLk6GJQsqaUBKTNV-1">
+          <mxGeometry x="-150" y="-564" width="192" height="144" as="geometry">
+            <mxRectangle x="340" y="380" width="170" height="26" as="alternateBounds" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="U2ah6jXeYR3lidveWnMp-56" value="" style="line;html=1;strokeWidth=1;align=left;verticalAlign=middle;spacingTop=-1;spacingLeft=3;spacingRight=3;rotatable=0;labelPosition=right;points=[];portConstraint=eastwest;" vertex="1" parent="U2ah6jXeYR3lidveWnMp-55">
+          <mxGeometry y="30" width="192" height="24" as="geometry" />
+        </mxCell>
+        <mxCell id="U2ah6jXeYR3lidveWnMp-57" value="&lt;div style=&quot;text-align: left;&quot;&gt;&lt;div&gt;+Plant(name: string, type: string,&amp;nbsp;&lt;/div&gt;&lt;div&gt;&lt;span style=&quot;background-color: initial;&quot;&gt;&amp;nbsp; ntr: int) { override }&lt;/span&gt;&lt;/div&gt;&lt;div&gt;&lt;span style=&quot;background-color: initial;&quot;&gt;+infected(Radiation r): void&lt;/span&gt;&lt;/div&gt;&lt;/div&gt;&lt;div style=&quot;text-align: left;&quot;&gt;&amp;nbsp; { override }&lt;/div&gt;&lt;div style=&quot;text-align: left;&quot;&gt;+radeNeed(): int { override }&lt;/div&gt;" style="text;html=1;align=center;verticalAlign=middle;resizable=0;points=[];autosize=1;strokeColor=none;fillColor=none;" vertex="1" parent="U2ah6jXeYR3lidveWnMp-55">
+          <mxGeometry y="54" width="192" height="90" as="geometry" />
+        </mxCell>
+        <mxCell id="U2ah6jXeYR3lidveWnMp-58" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;exitX=0.5;exitY=0;exitDx=0;exitDy=0;entryX=0.25;entryY=1;entryDx=0;entryDy=0;endSize=12;endArrow=block;endFill=0;" edge="1" parent="WIyWlLk6GJQsqaUBKTNV-1" source="U2ah6jXeYR3lidveWnMp-59" target="U2ah6jXeYR3lidveWnMp-46">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="U2ah6jXeYR3lidveWnMp-59" value="Puff" style="swimlane;fontStyle=0;align=center;verticalAlign=top;childLayout=stackLayout;horizontal=1;startSize=30;horizontalStack=0;resizeParent=1;resizeLast=0;collapsible=1;marginBottom=0;rounded=0;shadow=0;strokeWidth=1;" vertex="1" parent="WIyWlLk6GJQsqaUBKTNV-1">
+          <mxGeometry x="-620" y="-564" width="200" height="144" as="geometry">
+            <mxRectangle x="340" y="380" width="170" height="26" as="alternateBounds" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="U2ah6jXeYR3lidveWnMp-60" value="" style="line;html=1;strokeWidth=1;align=left;verticalAlign=middle;spacingTop=-1;spacingLeft=3;spacingRight=3;rotatable=0;labelPosition=right;points=[];portConstraint=eastwest;" vertex="1" parent="U2ah6jXeYR3lidveWnMp-59">
+          <mxGeometry y="30" width="200" height="24" as="geometry" />
+        </mxCell>
+        <mxCell id="U2ah6jXeYR3lidveWnMp-61" value="&lt;div&gt;&lt;div&gt;+Plant(name: string, type: string,&lt;/div&gt;&lt;div&gt;&lt;span style=&quot;background-color: initial;&quot;&gt;&amp;nbsp; ntr: int) { override }&lt;/span&gt;&lt;/div&gt;&lt;/div&gt;+infected(Radiation r): void&lt;div&gt;&amp;nbsp; { override }&lt;/div&gt;&lt;div&gt;+radeNeed(): int { override }&lt;/div&gt;" style="text;html=1;align=left;verticalAlign=middle;resizable=0;points=[];autosize=1;strokeColor=none;fillColor=none;" vertex="1" parent="U2ah6jXeYR3lidveWnMp-59">
           <mxGeometry y="54" width="200" height="90" as="geometry" />
         </mxCell>
       </root>
