@@ -112,7 +112,7 @@
         <mxCell id="JW1Y3XpuhCUsItWBqjoq-28" value="+ Mountain(type: String, x: int, y: int)" style="text;strokeColor=none;fillColor=none;align=left;verticalAlign=top;spacingLeft=4;spacingRight=4;overflow=hidden;rotatable=0;points=[[0,0.5],[1,0.5]];portConstraint=eastwest;whiteSpace=wrap;html=1;" parent="JW1Y3XpuhCUsItWBqjoq-25" vertex="1">
           <mxGeometry y="34" width="160" height="46" as="geometry" />
         </mxCell>
-        <mxCell id="Aqfv4AWS69Kue3A25FG4-5" value="Rectangle" style="html=1;whiteSpace=wrap;" parent="1" vertex="1">
+        <mxCell id="Aqfv4AWS69Kue3A25FG4-5" value="&lt;b&gt;Rectangle&lt;/b&gt;" style="html=1;whiteSpace=wrap;" parent="1" vertex="1">
           <mxGeometry x="410" y="-400" width="110" height="50" as="geometry" />
         </mxCell>
         <mxCell id="Aqfv4AWS69Kue3A25FG4-24" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;exitX=0.5;exitY=0;exitDx=0;exitDy=0;endArrow=diamondThin;endFill=0;endSize=12;" parent="1" source="Aqfv4AWS69Kue3A25FG4-7" target="Aqfv4AWS69Kue3A25FG4-11" edge="1">
@@ -134,7 +134,7 @@
           <mxGeometry relative="1" as="geometry" />
         </mxCell>
         <mxCell id="Aqfv4AWS69Kue3A25FG4-11" value="YogiGameGUI" style="swimlane;fontStyle=1;align=center;verticalAlign=top;childLayout=stackLayout;horizontal=1;startSize=26;horizontalStack=0;resizeParent=1;resizeParentMax=0;resizeLast=0;collapsible=1;marginBottom=0;whiteSpace=wrap;html=1;" parent="1" vertex="1">
-          <mxGeometry x="1195" y="-320" width="160" height="86" as="geometry" />
+          <mxGeometry x="900" y="-310" width="160" height="86" as="geometry" />
         </mxCell>
         <mxCell id="Aqfv4AWS69Kue3A25FG4-12" value="+ field: type" style="text;strokeColor=none;fillColor=none;align=left;verticalAlign=top;spacingLeft=4;spacingRight=4;overflow=hidden;rotatable=0;points=[[0,0.5],[1,0.5]];portConstraint=eastwest;whiteSpace=wrap;html=1;" parent="Aqfv4AWS69Kue3A25FG4-11" vertex="1">
           <mxGeometry y="26" width="160" height="26" as="geometry" />
@@ -175,8 +175,14 @@
         <mxCell id="_yU-8EtJCTcdnknjxa69-3" value="" style="shape=providedRequiredInterface;html=1;verticalLabelPosition=bottom;sketch=0;direction=south;" vertex="1" parent="1">
           <mxGeometry x="330" y="-390" width="20" height="20" as="geometry" />
         </mxCell>
-        <mxCell id="_yU-8EtJCTcdnknjxa69-9" value="KeyListener" style="text;html=1;align=center;verticalAlign=middle;resizable=0;points=[];autosize=1;strokeColor=none;fillColor=none;" vertex="1" parent="1">
+        <mxCell id="_yU-8EtJCTcdnknjxa69-9" value="&lt;b&gt;KeyListener&lt;/b&gt;" style="text;html=1;align=center;verticalAlign=middle;resizable=0;points=[];autosize=1;strokeColor=none;fillColor=none;" vertex="1" parent="1">
           <mxGeometry x="295" y="-420" width="90" height="30" as="geometry" />
+        </mxCell>
+        <mxCell id="_yU-8EtJCTcdnknjxa69-12" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;entryX=0.5;entryY=0;entryDx=0;entryDy=0;startArrow=block;startFill=0;endArrow=none;endFill=0;startSize=12;" edge="1" parent="1" source="_yU-8EtJCTcdnknjxa69-11" target="Aqfv4AWS69Kue3A25FG4-11">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="_yU-8EtJCTcdnknjxa69-11" value="&lt;b&gt;JFrame&lt;/b&gt;" style="html=1;whiteSpace=wrap;" vertex="1" parent="1">
+          <mxGeometry x="925" y="-405" width="110" height="50" as="geometry" />
         </mxCell>
       </root>
     </mxGraphModel>
