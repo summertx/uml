@@ -119,7 +119,7 @@
           <mxGeometry relative="1" as="geometry" />
         </mxCell>
         <mxCell id="Aqfv4AWS69Kue3A25FG4-7" value="YogiGameModule" style="swimlane;fontStyle=1;align=center;verticalAlign=top;childLayout=stackLayout;horizontal=1;startSize=26;horizontalStack=0;resizeParent=1;resizeParentMax=0;resizeLast=0;collapsible=1;marginBottom=0;whiteSpace=wrap;html=1;" parent="1" vertex="1">
-          <mxGeometry x="1275" y="210" width="210" height="150" as="geometry" />
+          <mxGeometry x="800" y="-20" width="210" height="150" as="geometry" />
         </mxCell>
         <mxCell id="Aqfv4AWS69Kue3A25FG4-8" value="+ field: type" style="text;strokeColor=none;fillColor=none;align=left;verticalAlign=top;spacingLeft=4;spacingRight=4;overflow=hidden;rotatable=0;points=[[0,0.5],[1,0.5]];portConstraint=eastwest;whiteSpace=wrap;html=1;" parent="Aqfv4AWS69Kue3A25FG4-7" vertex="1">
           <mxGeometry y="26" width="210" height="26" as="geometry" />
@@ -146,7 +146,7 @@
           <mxGeometry y="60" width="160" height="26" as="geometry" />
         </mxCell>
         <mxCell id="Aqfv4AWS69Kue3A25FG4-15" value="StartingMenu" style="swimlane;fontStyle=1;align=center;verticalAlign=top;childLayout=stackLayout;horizontal=1;startSize=26;horizontalStack=0;resizeParent=1;resizeParentMax=0;resizeLast=0;collapsible=1;marginBottom=0;whiteSpace=wrap;html=1;" parent="1" vertex="1">
-          <mxGeometry x="1510" y="-86" width="160" height="86" as="geometry" />
+          <mxGeometry x="1115" y="-210" width="160" height="86" as="geometry" />
         </mxCell>
         <mxCell id="Aqfv4AWS69Kue3A25FG4-16" value="+ field: type" style="text;strokeColor=none;fillColor=none;align=left;verticalAlign=top;spacingLeft=4;spacingRight=4;overflow=hidden;rotatable=0;points=[[0,0.5],[1,0.5]];portConstraint=eastwest;whiteSpace=wrap;html=1;" parent="Aqfv4AWS69Kue3A25FG4-15" vertex="1">
           <mxGeometry y="26" width="160" height="26" as="geometry" />
@@ -158,7 +158,7 @@
           <mxGeometry y="60" width="160" height="26" as="geometry" />
         </mxCell>
         <mxCell id="Aqfv4AWS69Kue3A25FG4-19" value="RestartMenu" style="swimlane;fontStyle=1;align=center;verticalAlign=top;childLayout=stackLayout;horizontal=1;startSize=26;horizontalStack=0;resizeParent=1;resizeParentMax=0;resizeLast=0;collapsible=1;marginBottom=0;whiteSpace=wrap;html=1;" parent="1" vertex="1">
-          <mxGeometry x="1410" y="-380" width="160" height="86" as="geometry" />
+          <mxGeometry x="1115" y="-370" width="160" height="86" as="geometry" />
         </mxCell>
         <mxCell id="Aqfv4AWS69Kue3A25FG4-20" value="+ field: type" style="text;strokeColor=none;fillColor=none;align=left;verticalAlign=top;spacingLeft=4;spacingRight=4;overflow=hidden;rotatable=0;points=[[0,0.5],[1,0.5]];portConstraint=eastwest;whiteSpace=wrap;html=1;" parent="Aqfv4AWS69Kue3A25FG4-19" vertex="1">
           <mxGeometry y="26" width="160" height="26" as="geometry" />
