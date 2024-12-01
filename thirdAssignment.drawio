@@ -62,16 +62,16 @@
           <mxGeometry relative="1" as="geometry" />
         </mxCell>
         <mxCell id="JW1Y3XpuhCUsItWBqjoq-13" value="&lt;div&gt;&lt;span style=&quot;background-color: initial;&quot;&gt;GameComponent&lt;/span&gt;&lt;/div&gt;" style="swimlane;fontStyle=1;align=center;verticalAlign=top;childLayout=stackLayout;horizontal=1;startSize=30;horizontalStack=0;resizeParent=1;resizeParentMax=0;resizeLast=0;collapsible=1;marginBottom=0;whiteSpace=wrap;html=1;" parent="1" vertex="1">
-          <mxGeometry x="320" y="-290" width="180" height="164" as="geometry" />
+          <mxGeometry x="320" y="-290" width="180" height="120" as="geometry" />
         </mxCell>
-        <mxCell id="JW1Y3XpuhCUsItWBqjoq-14" value="&lt;div&gt;# type: String { GETTER }&lt;/div&gt;# x: int { GETTER }&lt;div&gt;# y: int { GETTER }&lt;/div&gt;&lt;div&gt;# size: int { GETTER }&lt;/div&gt;&lt;div&gt;# icon: Image { GETTER }&amp;nbsp;&lt;/div&gt;" style="text;strokeColor=none;fillColor=none;align=left;verticalAlign=top;spacingLeft=4;spacingRight=4;overflow=hidden;rotatable=0;points=[[0,0.5],[1,0.5]];portConstraint=eastwest;whiteSpace=wrap;html=1;" parent="JW1Y3XpuhCUsItWBqjoq-13" vertex="1">
-          <mxGeometry y="30" width="180" height="84" as="geometry" />
+        <mxCell id="JW1Y3XpuhCUsItWBqjoq-14" value="&lt;div&gt;# type: String { GETTER }&lt;/div&gt;&lt;div&gt;# icon: Image { GETTER }&amp;nbsp;&lt;/div&gt;" style="text;strokeColor=none;fillColor=none;align=left;verticalAlign=top;spacingLeft=4;spacingRight=4;overflow=hidden;rotatable=0;points=[[0,0.5],[1,0.5]];portConstraint=eastwest;whiteSpace=wrap;html=1;" parent="JW1Y3XpuhCUsItWBqjoq-13" vertex="1">
+          <mxGeometry y="30" width="180" height="40" as="geometry" />
         </mxCell>
         <mxCell id="JW1Y3XpuhCUsItWBqjoq-15" value="" style="line;strokeWidth=1;fillColor=none;align=left;verticalAlign=middle;spacingTop=-1;spacingLeft=3;spacingRight=3;rotatable=0;labelPosition=right;points=[];portConstraint=eastwest;strokeColor=inherit;" parent="JW1Y3XpuhCUsItWBqjoq-13" vertex="1">
-          <mxGeometry y="114" width="180" height="8" as="geometry" />
+          <mxGeometry y="70" width="180" height="8" as="geometry" />
         </mxCell>
         <mxCell id="JW1Y3XpuhCUsItWBqjoq-16" value="&lt;div&gt;+ GameComponent(type: String, x: int, y: int)&lt;/div&gt;" style="text;strokeColor=none;fillColor=none;align=left;verticalAlign=top;spacingLeft=4;spacingRight=4;overflow=hidden;rotatable=0;points=[[0,0.5],[1,0.5]];portConstraint=eastwest;whiteSpace=wrap;html=1;" parent="JW1Y3XpuhCUsItWBqjoq-13" vertex="1">
-          <mxGeometry y="122" width="180" height="42" as="geometry" />
+          <mxGeometry y="78" width="180" height="42" as="geometry" />
         </mxCell>
         <mxCell id="JW1Y3XpuhCUsItWBqjoq-32" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;exitX=0.5;exitY=0;exitDx=0;exitDy=0;endArrow=block;endFill=0;endSize=12;" parent="1" source="JW1Y3XpuhCUsItWBqjoq-17" target="37ParpVeFPUFG8CqIVVN-1" edge="1">
           <mxGeometry relative="1" as="geometry" />
@@ -183,10 +183,10 @@
           <mxGeometry x="925" y="-405" width="110" height="50" as="geometry" />
         </mxCell>
         <mxCell id="_yU-8EtJCTcdnknjxa69-13" value="components" style="text;html=1;align=center;verticalAlign=middle;resizable=0;points=[];autosize=1;strokeColor=none;fillColor=none;" parent="1" vertex="1">
-          <mxGeometry x="495" y="-272" width="90" height="30" as="geometry" />
+          <mxGeometry x="500" y="-290" width="90" height="30" as="geometry" />
         </mxCell>
         <mxCell id="_yU-8EtJCTcdnknjxa69-14" value="*" style="text;html=1;align=center;verticalAlign=middle;resizable=0;points=[];autosize=1;strokeColor=none;fillColor=none;" parent="1" vertex="1">
-          <mxGeometry x="495" y="-242" width="30" height="30" as="geometry" />
+          <mxGeometry x="570" y="-290" width="30" height="30" as="geometry" />
         </mxCell>
         <mxCell id="_yU-8EtJCTcdnknjxa69-15" value="contain" style="text;html=1;align=center;verticalAlign=middle;resizable=0;points=[];autosize=1;strokeColor=none;fillColor=none;" parent="1" vertex="1">
           <mxGeometry x="680" y="-302" width="60" height="30" as="geometry" />
