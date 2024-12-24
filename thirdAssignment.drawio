@@ -152,6 +152,18 @@
         <mxCell id="gm6i85_HgCSPow5HQ9hL-30" value="+ Level(levelPath: String)&lt;div&gt;- loadLevel(levelPath: String): void&lt;/div&gt;&lt;div&gt;- generateGameCompoent(type: int, x: int, y: int, direction: int): void&lt;/div&gt;&lt;div&gt;+ checkEachRangersCollision(): void&lt;/div&gt;&lt;div&gt;+ checkYogiCollision: boolean&lt;/div&gt;&lt;div&gt;+ rangersMove(): void&lt;/div&gt;&lt;div&gt;+ isPass(): boolean&lt;/div&gt;&lt;div&gt;+ isCaught(): boolean&lt;/div&gt;&lt;div&gt;+ getYogi(): YogiBear&lt;/div&gt;&lt;div&gt;+ draw(g: Graphics): void&lt;/div&gt;" style="text;strokeColor=none;fillColor=none;align=left;verticalAlign=top;spacingLeft=4;spacingRight=4;overflow=hidden;rotatable=0;points=[[0,0.5],[1,0.5]];portConstraint=eastwest;whiteSpace=wrap;html=1;" vertex="1" parent="gm6i85_HgCSPow5HQ9hL-27">
           <mxGeometry y="168" width="250" height="172" as="geometry" />
         </mxCell>
+        <mxCell id="gm6i85_HgCSPow5HQ9hL-31" value="YogiGameContoller" style="swimlane;fontStyle=1;align=center;verticalAlign=top;childLayout=stackLayout;horizontal=1;startSize=26;horizontalStack=0;resizeParent=1;resizeParentMax=0;resizeLast=0;collapsible=1;marginBottom=0;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+          <mxGeometry x="910" y="-1090" width="250" height="230" as="geometry" />
+        </mxCell>
+        <mxCell id="gm6i85_HgCSPow5HQ9hL-32" value="- gmEng: GameEngine&lt;div&gt;- level: Level&lt;/div&gt;&lt;div&gt;- yogi: YogiBear&lt;/div&gt;&lt;div&gt;- newFrameTimer: Timer&lt;/div&gt;&lt;div&gt;- paused: boolean&lt;/div&gt;&lt;div&gt;- levelNum: int {GETTER}&lt;/div&gt;&lt;div&gt;- livex: int {GETTER}&lt;/div&gt;&lt;div&gt;- end: boolean {GETTER}&lt;/div&gt;" style="text;strokeColor=none;fillColor=none;align=left;verticalAlign=top;spacingLeft=4;spacingRight=4;overflow=hidden;rotatable=0;points=[[0,0.5],[1,0.5]];portConstraint=eastwest;whiteSpace=wrap;html=1;" vertex="1" parent="gm6i85_HgCSPow5HQ9hL-31">
+          <mxGeometry y="26" width="250" height="124" as="geometry" />
+        </mxCell>
+        <mxCell id="gm6i85_HgCSPow5HQ9hL-33" value="" style="line;strokeWidth=1;fillColor=none;align=left;verticalAlign=middle;spacingTop=-1;spacingLeft=3;spacingRight=3;rotatable=0;labelPosition=right;points=[];portConstraint=eastwest;strokeColor=inherit;" vertex="1" parent="gm6i85_HgCSPow5HQ9hL-31">
+          <mxGeometry y="150" width="250" height="8" as="geometry" />
+        </mxCell>
+        <mxCell id="gm6i85_HgCSPow5HQ9hL-34" value="+ YogiGameContoller(gmEng: GameEngine)&lt;div&gt;- restart(): void&lt;/div&gt;&lt;div&gt;&lt;br&gt;&lt;/div&gt;" style="text;strokeColor=none;fillColor=none;align=left;verticalAlign=top;spacingLeft=4;spacingRight=4;overflow=hidden;rotatable=0;points=[[0,0.5],[1,0.5]];portConstraint=eastwest;whiteSpace=wrap;html=1;" vertex="1" parent="gm6i85_HgCSPow5HQ9hL-31">
+          <mxGeometry y="158" width="250" height="72" as="geometry" />
+        </mxCell>
       </root>
     </mxGraphModel>
   </diagram>
