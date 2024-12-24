@@ -64,22 +64,22 @@
           <mxGeometry relative="1" as="geometry" />
         </mxCell>
         <mxCell id="JW1Y3XpuhCUsItWBqjoq-17" value="Ranger" style="swimlane;fontStyle=1;align=center;verticalAlign=top;childLayout=stackLayout;horizontal=1;startSize=26;horizontalStack=0;resizeParent=1;resizeParentMax=0;resizeLast=0;collapsible=1;marginBottom=0;whiteSpace=wrap;html=1;" parent="1" vertex="1">
-          <mxGeometry x="380" y="130" width="160" height="120" as="geometry" />
+          <mxGeometry x="380" y="130" width="230" height="170" as="geometry" />
         </mxCell>
-        <mxCell id="JW1Y3XpuhCUsItWBqjoq-18" value="- movingDirection: String" style="text;strokeColor=none;fillColor=none;align=left;verticalAlign=top;spacingLeft=4;spacingRight=4;overflow=hidden;rotatable=0;points=[[0,0.5],[1,0.5]];portConstraint=eastwest;whiteSpace=wrap;html=1;" parent="JW1Y3XpuhCUsItWBqjoq-17" vertex="1">
-          <mxGeometry y="26" width="160" height="26" as="geometry" />
+        <mxCell id="JW1Y3XpuhCUsItWBqjoq-18" value="- directon: int" style="text;strokeColor=none;fillColor=none;align=left;verticalAlign=top;spacingLeft=4;spacingRight=4;overflow=hidden;rotatable=0;points=[[0,0.5],[1,0.5]];portConstraint=eastwest;whiteSpace=wrap;html=1;" parent="JW1Y3XpuhCUsItWBqjoq-17" vertex="1">
+          <mxGeometry y="26" width="230" height="26" as="geometry" />
         </mxCell>
         <mxCell id="JW1Y3XpuhCUsItWBqjoq-19" value="" style="line;strokeWidth=1;fillColor=none;align=left;verticalAlign=middle;spacingTop=-1;spacingLeft=3;spacingRight=3;rotatable=0;labelPosition=right;points=[];portConstraint=eastwest;strokeColor=inherit;" parent="JW1Y3XpuhCUsItWBqjoq-17" vertex="1">
-          <mxGeometry y="52" width="160" height="8" as="geometry" />
+          <mxGeometry y="52" width="230" height="8" as="geometry" />
         </mxCell>
-        <mxCell id="JW1Y3XpuhCUsItWBqjoq-20" value="+ Ranger(x: int,&amp;nbsp; y: int, dir: String)&lt;div&gt;+ move(): void {Override}&lt;/div&gt;" style="text;strokeColor=none;fillColor=none;align=left;verticalAlign=top;spacingLeft=4;spacingRight=4;overflow=hidden;rotatable=0;points=[[0,0.5],[1,0.5]];portConstraint=eastwest;whiteSpace=wrap;html=1;" parent="JW1Y3XpuhCUsItWBqjoq-17" vertex="1">
-          <mxGeometry y="60" width="160" height="60" as="geometry" />
+        <mxCell id="JW1Y3XpuhCUsItWBqjoq-20" value="+ generateRanger(x: int,&amp;nbsp; y: int, width: int, height: int, direction: int): ranger {static}&lt;div&gt;- Ranger(&lt;span style=&quot;background-color: initial;&quot;&gt;x: int,&amp;nbsp; y: int, width: int, height: int, image: Image, direction: int&lt;/span&gt;&lt;span style=&quot;background-color: initial;&quot;&gt;)&lt;/span&gt;&lt;/div&gt;&lt;div&gt;&lt;span style=&quot;background-color: initial;&quot;&gt;+ move(): void&lt;/span&gt;&lt;/div&gt;&lt;div&gt;- invertVel(): void&lt;/div&gt;&lt;div&gt;- collides(other: GameCompoent): String&lt;/div&gt;" style="text;strokeColor=none;fillColor=none;align=left;verticalAlign=top;spacingLeft=4;spacingRight=4;overflow=hidden;rotatable=0;points=[[0,0.5],[1,0.5]];portConstraint=eastwest;whiteSpace=wrap;html=1;" parent="JW1Y3XpuhCUsItWBqjoq-17" vertex="1">
+          <mxGeometry y="60" width="230" height="110" as="geometry" />
         </mxCell>
         <mxCell id="JW1Y3XpuhCUsItWBqjoq-29" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;exitX=0.5;exitY=0;exitDx=0;exitDy=0;strokeWidth=1;endArrow=block;endFill=0;endSize=12;" parent="1" source="JW1Y3XpuhCUsItWBqjoq-21" target="JW1Y3XpuhCUsItWBqjoq-9" edge="1">
           <mxGeometry relative="1" as="geometry" />
         </mxCell>
         <mxCell id="JW1Y3XpuhCUsItWBqjoq-21" value="Tree" style="swimlane;fontStyle=1;align=center;verticalAlign=top;childLayout=stackLayout;horizontal=1;startSize=26;horizontalStack=0;resizeParent=1;resizeParentMax=0;resizeLast=0;collapsible=1;marginBottom=0;whiteSpace=wrap;html=1;" parent="1" vertex="1">
-          <mxGeometry x="640" y="140" width="160" height="60" as="geometry" />
+          <mxGeometry x="720" y="140" width="160" height="60" as="geometry" />
         </mxCell>
         <mxCell id="JW1Y3XpuhCUsItWBqjoq-23" value="" style="line;strokeWidth=1;fillColor=none;align=left;verticalAlign=middle;spacingTop=-1;spacingLeft=3;spacingRight=3;rotatable=0;labelPosition=right;points=[];portConstraint=eastwest;strokeColor=inherit;" parent="JW1Y3XpuhCUsItWBqjoq-21" vertex="1">
           <mxGeometry y="26" width="160" height="8" as="geometry" />
@@ -91,7 +91,7 @@
           <mxGeometry relative="1" as="geometry" />
         </mxCell>
         <mxCell id="JW1Y3XpuhCUsItWBqjoq-25" value="Mountain" style="swimlane;fontStyle=1;align=center;verticalAlign=top;childLayout=stackLayout;horizontal=1;startSize=26;horizontalStack=0;resizeParent=1;resizeParentMax=0;resizeLast=0;collapsible=1;marginBottom=0;whiteSpace=wrap;html=1;" parent="1" vertex="1">
-          <mxGeometry x="520" y="260" width="160" height="60" as="geometry" />
+          <mxGeometry x="620" y="280" width="160" height="60" as="geometry" />
         </mxCell>
         <mxCell id="JW1Y3XpuhCUsItWBqjoq-27" value="" style="line;strokeWidth=1;fillColor=none;align=left;verticalAlign=middle;spacingTop=-1;spacingLeft=3;spacingRight=3;rotatable=0;labelPosition=right;points=[];portConstraint=eastwest;strokeColor=inherit;" parent="JW1Y3XpuhCUsItWBqjoq-25" vertex="1">
           <mxGeometry y="26" width="160" height="8" as="geometry" />
@@ -170,16 +170,16 @@
           <mxGeometry x="680" y="-302" width="60" height="30" as="geometry" />
         </mxCell>
         <mxCell id="gm6i85_HgCSPow5HQ9hL-2" value="YogiBeaer" style="swimlane;fontStyle=1;align=center;verticalAlign=top;childLayout=stackLayout;horizontal=1;startSize=26;horizontalStack=0;resizeParent=1;resizeParentMax=0;resizeLast=0;collapsible=1;marginBottom=0;whiteSpace=wrap;html=1;" vertex="1" parent="1">
-          <mxGeometry x="130" y="130" width="220" height="230" as="geometry" />
+          <mxGeometry x="130" y="130" width="220" height="220" as="geometry" />
         </mxCell>
         <mxCell id="gm6i85_HgCSPow5HQ9hL-3" value="- previousX: int&lt;div&gt;- previousY: int&lt;/div&gt;" style="text;strokeColor=none;fillColor=none;align=left;verticalAlign=top;spacingLeft=4;spacingRight=4;overflow=hidden;rotatable=0;points=[[0,0.5],[1,0.5]];portConstraint=eastwest;whiteSpace=wrap;html=1;" vertex="1" parent="gm6i85_HgCSPow5HQ9hL-2">
-          <mxGeometry y="26" width="220" height="44" as="geometry" />
+          <mxGeometry y="26" width="220" height="34" as="geometry" />
         </mxCell>
         <mxCell id="gm6i85_HgCSPow5HQ9hL-4" value="" style="line;strokeWidth=1;fillColor=none;align=left;verticalAlign=middle;spacingTop=-1;spacingLeft=3;spacingRight=3;rotatable=0;labelPosition=right;points=[];portConstraint=eastwest;strokeColor=inherit;" vertex="1" parent="gm6i85_HgCSPow5HQ9hL-2">
-          <mxGeometry y="70" width="220" height="8" as="geometry" />
+          <mxGeometry y="60" width="220" height="8" as="geometry" />
         </mxCell>
         <mxCell id="gm6i85_HgCSPow5HQ9hL-5" value="+ generateYogiBear(x: int, y: int, width: int, height: int): YogiBear{static}&lt;div&gt;- YogiBear(&lt;span style=&quot;background-color: initial;&quot;&gt;x: int, y: int, width: int, height: int, image: Image&lt;/span&gt;&lt;span style=&quot;background-color: initial;&quot;&gt;)&lt;/span&gt;&lt;/div&gt;&lt;div&gt;&lt;span style=&quot;background-color: initial;&quot;&gt;+ move(): void&lt;/span&gt;&lt;/div&gt;&lt;div&gt;&lt;span style=&quot;background-color: initial;&quot;&gt;+ setVelx(): void&amp;nbsp;&lt;/span&gt;&lt;/div&gt;&lt;div&gt;&lt;span style=&quot;background-color: initial;&quot;&gt;+ setVely(): void&lt;/span&gt;&lt;/div&gt;&lt;div&gt;&lt;span style=&quot;background-color: initial;&quot;&gt;+ collides(other: GameComponent): String&lt;/span&gt;&lt;/div&gt;" style="text;strokeColor=none;fillColor=none;align=left;verticalAlign=top;spacingLeft=4;spacingRight=4;overflow=hidden;rotatable=0;points=[[0,0.5],[1,0.5]];portConstraint=eastwest;whiteSpace=wrap;html=1;" vertex="1" parent="gm6i85_HgCSPow5HQ9hL-2">
-          <mxGeometry y="78" width="220" height="152" as="geometry" />
+          <mxGeometry y="68" width="220" height="152" as="geometry" />
         </mxCell>
       </root>
     </mxGraphModel>
