@@ -1,6 +1,6 @@
 <mxfile host="app.diagrams.net" agent="Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/131.0.0.0 Safari/537.36 Edg/131.0.0.0" version="25.0.3">
   <diagram name="Page-1" id="V1T5ub4eXaLLm83vhyxi">
-    <mxGraphModel dx="1667" dy="2039" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="850" pageHeight="1100" math="0" shadow="0">
+    <mxGraphModel dx="861" dy="2028" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="850" pageHeight="1100" math="0" shadow="0">
       <root>
         <mxCell id="0" />
         <mxCell id="1" parent="0" />
@@ -116,17 +116,41 @@
         <mxCell id="gm6i85_HgCSPow5HQ9hL-14" value="&lt;div&gt;+ landscape(&lt;span style=&quot;background-color: initial;&quot;&gt;x: int,&amp;nbsp; y: int, width: int, height: int, image: Image, direction: int&lt;/span&gt;&lt;span style=&quot;background-color: initial;&quot;&gt;)&lt;/span&gt;&lt;/div&gt;" style="text;strokeColor=none;fillColor=none;align=left;verticalAlign=top;spacingLeft=4;spacingRight=4;overflow=hidden;rotatable=0;points=[[0,0.5],[1,0.5]];portConstraint=eastwest;whiteSpace=wrap;html=1;" vertex="1" parent="gm6i85_HgCSPow5HQ9hL-11">
           <mxGeometry y="34" width="220" height="42" as="geometry" />
         </mxCell>
-        <mxCell id="gm6i85_HgCSPow5HQ9hL-19" value="YogiGameModule" style="swimlane;fontStyle=1;align=center;verticalAlign=top;childLayout=stackLayout;horizontal=1;startSize=26;horizontalStack=0;resizeParent=1;resizeParentMax=0;resizeLast=0;collapsible=1;marginBottom=0;whiteSpace=wrap;html=1;" vertex="1" parent="1">
-          <mxGeometry x="740" y="-630" width="210" height="150" as="geometry" />
+        <mxCell id="gm6i85_HgCSPow5HQ9hL-19" value="GameEngine" style="swimlane;fontStyle=1;align=center;verticalAlign=top;childLayout=stackLayout;horizontal=1;startSize=26;horizontalStack=0;resizeParent=1;resizeParentMax=0;resizeLast=0;collapsible=1;marginBottom=0;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+          <mxGeometry x="740" y="-630" width="250" height="180" as="geometry" />
         </mxCell>
-        <mxCell id="gm6i85_HgCSPow5HQ9hL-20" value="+ field: type" style="text;strokeColor=none;fillColor=none;align=left;verticalAlign=top;spacingLeft=4;spacingRight=4;overflow=hidden;rotatable=0;points=[[0,0.5],[1,0.5]];portConstraint=eastwest;whiteSpace=wrap;html=1;" vertex="1" parent="gm6i85_HgCSPow5HQ9hL-19">
-          <mxGeometry y="26" width="210" height="26" as="geometry" />
+        <mxCell id="gm6i85_HgCSPow5HQ9hL-20" value="- FPS: int {final} { GETTER }&lt;div&gt;- level: Level { SETTER }&lt;/div&gt;&lt;div&gt;-yogi: YogiBear { GETTER }&lt;/div&gt;&lt;div&gt;- YOGI_MOVEMENT: int {final} { GETTER }&lt;/div&gt;" style="text;strokeColor=none;fillColor=none;align=left;verticalAlign=top;spacingLeft=4;spacingRight=4;overflow=hidden;rotatable=0;points=[[0,0.5],[1,0.5]];portConstraint=eastwest;whiteSpace=wrap;html=1;" vertex="1" parent="gm6i85_HgCSPow5HQ9hL-19">
+          <mxGeometry y="26" width="250" height="74" as="geometry" />
         </mxCell>
         <mxCell id="gm6i85_HgCSPow5HQ9hL-21" value="" style="line;strokeWidth=1;fillColor=none;align=left;verticalAlign=middle;spacingTop=-1;spacingLeft=3;spacingRight=3;rotatable=0;labelPosition=right;points=[];portConstraint=eastwest;strokeColor=inherit;" vertex="1" parent="gm6i85_HgCSPow5HQ9hL-19">
-          <mxGeometry y="52" width="210" height="8" as="geometry" />
+          <mxGeometry y="100" width="250" height="8" as="geometry" />
         </mxCell>
-        <mxCell id="gm6i85_HgCSPow5HQ9hL-22" value="- checkYogiLanCollision():&amp;nbsp; boolean&lt;div&gt;- checkYogiCaptured(): boolean&lt;/div&gt;" style="text;strokeColor=none;fillColor=none;align=left;verticalAlign=top;spacingLeft=4;spacingRight=4;overflow=hidden;rotatable=0;points=[[0,0.5],[1,0.5]];portConstraint=eastwest;whiteSpace=wrap;html=1;" vertex="1" parent="gm6i85_HgCSPow5HQ9hL-19">
-          <mxGeometry y="60" width="210" height="90" as="geometry" />
+        <mxCell id="gm6i85_HgCSPow5HQ9hL-22" value="+ GameEngine()&lt;div&gt;+ init(): void&lt;/div&gt;&lt;div&gt;# paintComponent(grphcs: Graphics): void {Override}&lt;/div&gt;" style="text;strokeColor=none;fillColor=none;align=left;verticalAlign=top;spacingLeft=4;spacingRight=4;overflow=hidden;rotatable=0;points=[[0,0.5],[1,0.5]];portConstraint=eastwest;whiteSpace=wrap;html=1;" vertex="1" parent="gm6i85_HgCSPow5HQ9hL-19">
+          <mxGeometry y="108" width="250" height="72" as="geometry" />
+        </mxCell>
+        <mxCell id="gm6i85_HgCSPow5HQ9hL-23" value="YogiGameGUI" style="swimlane;fontStyle=1;align=center;verticalAlign=top;childLayout=stackLayout;horizontal=1;startSize=26;horizontalStack=0;resizeParent=1;resizeParentMax=0;resizeLast=0;collapsible=1;marginBottom=0;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+          <mxGeometry x="1100" y="-660" width="250" height="400" as="geometry" />
+        </mxCell>
+        <mxCell id="gm6i85_HgCSPow5HQ9hL-24" value="- onlyFrame: JFrame {static}&lt;div&gt;- rankingList: JFrame {static}&lt;/div&gt;&lt;div&gt;- startingWindow: JFrame {static}&lt;/div&gt;&lt;div&gt;-textboxFrame: JFrame {static}&lt;/div&gt;&lt;div&gt;dead: boolean {static}&lt;/div&gt;&lt;div&gt;won: boolean {static}&lt;/div&gt;&lt;div&gt;end: boolean {static}&lt;/div&gt;&lt;div&gt;- timerLabel: JLabel&lt;/div&gt;&lt;div&gt;- attemptlabel: JLabel&lt;/div&gt;&lt;div&gt;- levelLabel: JLabel&amp;nbsp;&lt;/div&gt;&lt;div&gt;- seconds: int&amp;nbsp;&lt;/div&gt;&lt;div&gt;-timer: Timer&lt;/div&gt;&lt;div&gt;- timeHelper: Timer&lt;/div&gt;&lt;div&gt;controller: YogiGameController&lt;/div&gt;" style="text;strokeColor=none;fillColor=none;align=left;verticalAlign=top;spacingLeft=4;spacingRight=4;overflow=hidden;rotatable=0;points=[[0,0.5],[1,0.5]];portConstraint=eastwest;whiteSpace=wrap;html=1;" vertex="1" parent="gm6i85_HgCSPow5HQ9hL-23">
+          <mxGeometry y="26" width="250" height="214" as="geometry" />
+        </mxCell>
+        <mxCell id="gm6i85_HgCSPow5HQ9hL-25" value="" style="line;strokeWidth=1;fillColor=none;align=left;verticalAlign=middle;spacingTop=-1;spacingLeft=3;spacingRight=3;rotatable=0;labelPosition=right;points=[];portConstraint=eastwest;strokeColor=inherit;" vertex="1" parent="gm6i85_HgCSPow5HQ9hL-23">
+          <mxGeometry y="240" width="250" height="8" as="geometry" />
+        </mxCell>
+        <mxCell id="gm6i85_HgCSPow5HQ9hL-26" value="+ runYogiGameGUI(): void {static}&lt;div&gt;- YogiGameGUI()&lt;/div&gt;&lt;div&gt;- init(contoller: YogiGameContoller, gameEngine: GameEngine): void&lt;/div&gt;&lt;div&gt;- startTimeHelper(): void&lt;/div&gt;&lt;div&gt;- startTimer(): void&lt;/div&gt;&lt;div&gt;- generateRankingListFrame(): JFrame {static}&lt;/div&gt;&lt;div&gt;- generateStartingWindow(): JFrame {static}&lt;/div&gt;&lt;div&gt;- generateTextBoxWindow(): JFrame {static}&lt;/div&gt;" style="text;strokeColor=none;fillColor=none;align=left;verticalAlign=top;spacingLeft=4;spacingRight=4;overflow=hidden;rotatable=0;points=[[0,0.5],[1,0.5]];portConstraint=eastwest;whiteSpace=wrap;html=1;" vertex="1" parent="gm6i85_HgCSPow5HQ9hL-23">
+          <mxGeometry y="248" width="250" height="152" as="geometry" />
+        </mxCell>
+        <mxCell id="gm6i85_HgCSPow5HQ9hL-27" value="Level" style="swimlane;fontStyle=1;align=center;verticalAlign=top;childLayout=stackLayout;horizontal=1;startSize=26;horizontalStack=0;resizeParent=1;resizeParentMax=0;resizeLast=0;collapsible=1;marginBottom=0;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+          <mxGeometry x="1070" y="-190" width="250" height="180" as="geometry" />
+        </mxCell>
+        <mxCell id="gm6i85_HgCSPow5HQ9hL-28" value="- FPS: int {final} { GETTER }&lt;div&gt;- level: Level { SETTER }&lt;/div&gt;&lt;div&gt;-yogi: YogiBear { GETTER }&lt;/div&gt;&lt;div&gt;- YOGI_MOVEMENT: int {final} { GETTER }&lt;/div&gt;" style="text;strokeColor=none;fillColor=none;align=left;verticalAlign=top;spacingLeft=4;spacingRight=4;overflow=hidden;rotatable=0;points=[[0,0.5],[1,0.5]];portConstraint=eastwest;whiteSpace=wrap;html=1;" vertex="1" parent="gm6i85_HgCSPow5HQ9hL-27">
+          <mxGeometry y="26" width="250" height="74" as="geometry" />
+        </mxCell>
+        <mxCell id="gm6i85_HgCSPow5HQ9hL-29" value="" style="line;strokeWidth=1;fillColor=none;align=left;verticalAlign=middle;spacingTop=-1;spacingLeft=3;spacingRight=3;rotatable=0;labelPosition=right;points=[];portConstraint=eastwest;strokeColor=inherit;" vertex="1" parent="gm6i85_HgCSPow5HQ9hL-27">
+          <mxGeometry y="100" width="250" height="8" as="geometry" />
+        </mxCell>
+        <mxCell id="gm6i85_HgCSPow5HQ9hL-30" value="+ GameEngine()&lt;div&gt;+ init(): void&lt;/div&gt;&lt;div&gt;# paintComponent(grphcs: Graphics): void {Override}&lt;/div&gt;" style="text;strokeColor=none;fillColor=none;align=left;verticalAlign=top;spacingLeft=4;spacingRight=4;overflow=hidden;rotatable=0;points=[[0,0.5],[1,0.5]];portConstraint=eastwest;whiteSpace=wrap;html=1;" vertex="1" parent="gm6i85_HgCSPow5HQ9hL-27">
+          <mxGeometry y="108" width="250" height="72" as="geometry" />
         </mxCell>
       </root>
     </mxGraphModel>
