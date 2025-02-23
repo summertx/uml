@@ -131,7 +131,7 @@
           <mxGeometry x="-55" y="-350" width="140" height="40" as="geometry" />
         </mxCell>
         <mxCell id="xO45C9cYO4A0cl0hN1IL-52" value="&lt;span style=&quot;font-size: 23px;&quot;&gt;Game Loop&lt;/span&gt;" style="text;html=1;align=center;verticalAlign=middle;resizable=0;points=[];autosize=1;strokeColor=none;fillColor=none;" vertex="1" parent="1">
-          <mxGeometry x="1000" y="-740" width="140" height="40" as="geometry" />
+          <mxGeometry x="955" y="-740" width="140" height="40" as="geometry" />
         </mxCell>
         <mxCell id="xO45C9cYO4A0cl0hN1IL-59" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;entryX=0;entryY=0.5;entryDx=0;entryDy=0;endArrow=none;endFill=0;startArrow=block;startFill=0;startSize=12;dashed=1;" edge="1" parent="1" source="xO45C9cYO4A0cl0hN1IL-54" target="xO45C9cYO4A0cl0hN1IL-57">
           <mxGeometry relative="1" as="geometry" />
