@@ -25,6 +25,27 @@
         <mxCell id="xO45C9cYO4A0cl0hN1IL-1" value="&lt;span style=&quot;font-size: 15px;&quot;&gt;Take Game Actions&lt;/span&gt;" style="ellipse;whiteSpace=wrap;html=1;" vertex="1" parent="1">
           <mxGeometry x="420" y="120" width="120" height="80" as="geometry" />
         </mxCell>
+        <mxCell id="xO45C9cYO4A0cl0hN1IL-2" value="&lt;span style=&quot;font-size: 15px;&quot;&gt;Take Game Actions&lt;/span&gt;" style="ellipse;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+          <mxGeometry x="1070" y="-240" width="120" height="80" as="geometry" />
+        </mxCell>
+        <mxCell id="xO45C9cYO4A0cl0hN1IL-3" value="&lt;span style=&quot;font-size: 15px;&quot;&gt;Take Game Actions&lt;/span&gt;" style="ellipse;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+          <mxGeometry x="1030" y="70" width="120" height="80" as="geometry" />
+        </mxCell>
+        <mxCell id="xO45C9cYO4A0cl0hN1IL-4" value="&lt;span style=&quot;font-size: 15px;&quot;&gt;Take Game Actions&lt;/span&gt;" style="ellipse;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+          <mxGeometry x="880" y="-230" width="120" height="80" as="geometry" />
+        </mxCell>
+        <mxCell id="xO45C9cYO4A0cl0hN1IL-5" value="&lt;span style=&quot;font-size: 15px;&quot;&gt;Take Game Actions&lt;/span&gt;" style="ellipse;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+          <mxGeometry x="970" y="-130" width="120" height="80" as="geometry" />
+        </mxCell>
+        <mxCell id="xO45C9cYO4A0cl0hN1IL-6" value="&lt;span style=&quot;font-size: 15px;&quot;&gt;Take Game Actions&lt;/span&gt;" style="ellipse;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+          <mxGeometry x="1020" y="-40" width="120" height="80" as="geometry" />
+        </mxCell>
+        <mxCell id="xO45C9cYO4A0cl0hN1IL-7" value="&lt;span style=&quot;font-size: 15px;&quot;&gt;Take Game Actions&lt;/span&gt;" style="ellipse;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+          <mxGeometry x="830" y="-50" width="120" height="80" as="geometry" />
+        </mxCell>
+        <mxCell id="xO45C9cYO4A0cl0hN1IL-8" value="&lt;span style=&quot;font-size: 15px;&quot;&gt;Take Game Actions&lt;/span&gt;" style="ellipse;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+          <mxGeometry x="770" y="90" width="120" height="80" as="geometry" />
+        </mxCell>
       </root>
     </mxGraphModel>
   </diagram>
