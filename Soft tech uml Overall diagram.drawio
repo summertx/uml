@@ -214,6 +214,9 @@
         <mxCell id="kQselvY7ktdn1mzvGXEc-8" value="+" style="text;strokeColor=none;fillColor=none;align=left;verticalAlign=top;spacingLeft=4;spacingRight=4;overflow=hidden;rotatable=0;points=[[0,0.5],[1,0.5]];portConstraint=eastwest;whiteSpace=wrap;html=1;" vertex="1" parent="kQselvY7ktdn1mzvGXEc-5">
           <mxGeometry y="60" width="160" height="26" as="geometry" />
         </mxCell>
+        <mxCell id="kQselvY7ktdn1mzvGXEc-10" value="display" style="shape=umlFrame;whiteSpace=wrap;html=1;pointerEvents=0;width=60;height=30;" vertex="1" parent="WIyWlLk6GJQsqaUBKTNV-1">
+          <mxGeometry x="850" y="70" width="830" height="540" as="geometry" />
+        </mxCell>
       </root>
     </mxGraphModel>
   </diagram>
